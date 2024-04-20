@@ -1,5 +1,5 @@
 <script lang='ts'>
-    // import { supabase } from "$lib/supabaseClient";
+    import { supabase } from "$lib/supabaseClient";
     import { validateEmail } from "$lib/utils";
 
     async function handleJoinWaitlist() {
@@ -7,7 +7,7 @@
             emailError = "Please enter an email address.";
             emailSuccess = "";
             return;
-        }d
+        }
 
         if (!(await validateEmail(email))) {
             emailError = "Please enter a valid email address.";
@@ -17,20 +17,20 @@
 
         console.log("Email:", email)
 
-        // const { data, error } = await supabase.from("waitlist").insert([{ email }]);
+        const { data, error } = await supabase.from("waitlist").insert([{ email }]);
 
-        // console.log(data, error)
+        console.log(data, error)
 
-        // if (error) {
-        //     if (error.message.includes("duplicate key value violates unique constraint")) {
-        //         emailError = "You're already on the waitlist!";
-        //         emailSuccess = "";
-        //         return;
-        //     }
-        //     emailError = "An unexpected error occurred. Please try again.";
-        //     emailSuccess = "";
-        //     return;
-        // }
+        if (error) {
+            if (error.message.includes("duplicate key value violates unique constraint")) {
+                emailError = "You're already on the waitlist!";
+                emailSuccess = "";
+                return;
+            }
+            emailError = "An unexpected error occurred. Please try again.";
+            emailSuccess = "";
+            return;
+        }
 
         emailError = "";
         emailSuccess = "You've been added to the waitlist!";
