@@ -94,49 +94,57 @@
             </div>
         </div>
     </section>
-    <section class="bg-zinc-900 py-12 sm:py-24">
+    <section class="bg-zinc-900 py-12 sm:py-24 text-white" style="background-image: url('https://example.com/industrial-background.jpg'); background-size: cover; background-blend-mode: multiply;">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-4xl sm:text-5xl font-bold text-orange-500 sm:mb-4" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.8);">Save time and money when sourcing industrial supplies</h2>
+                <p class="text-xl sm:text-2xl text-zinc-200">Instantly check price, availability, and more across SupplyCrawl's industrial supplies data set.</p>
+            </div>
+        </div>
+    </section>
+    <section class="bg-zinc-800 py-12 sm:py-24">
         <div class="container mx-auto px-4">
             <div class="max-w-xl mx-auto text-center mb-8 sm:mb-12">
                 <h2 class="text-2xl sm:text-3xl font-bold text-orange-400 mb-3 sm:mb-4">Why Choose SupplyCrawl?</h2>
                 <p class="text-zinc-400 text-sm sm:text-base">SupplyCrawl offers unique features to help you save money and make better purchasing decisions.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-8">
-                <div class="bg-zinc-800 rounded-lg shadow-lg p-6">
+                <div class="bg-zinc-700 rounded-lg shadow-lg p-6">
                     <div class="flex items-center justify-center mb-4">
                         <i class="fas fa-search-dollar text-orange-400 text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-center text-white">Best Price Finder</h3>
                     <p class="text-zinc-400 text-center">Automatically scan multiple vendors to find the best prices for screws, bolts, hammers, and more.</p>
                 </div>
-                <div class="bg-zinc-800 rounded-lg shadow-lg p-6">
+                <div class="bg-zinc-700 rounded-lg shadow-lg p-6">
                     <div class="flex items-center justify-center mb-4">
                         <i class="fas fa-balance-scale text-orange-400 text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-center text-white">Feature Comparison</h3>
                     <p class="text-zinc-400 text-center">Compare product specifications side by side to ensure you get exactly what you need for your project.</p>
                 </div>
-                <div class="bg-zinc-800 rounded-lg shadow-lg p-6">
+                <div class="bg-zinc-700 rounded-lg shadow-lg p-6">
                     <div class="flex items-center justify-center mb-4">
                         <i class="fas fa-history text-orange-400 text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-center text-white">Price History</h3>
                     <p class="text-zinc-400 text-center">View the historical price trends of any product to predict future price movements and decide the best time to buy.</p>
                 </div>
-                <div class="bg-zinc-800 rounded-lg shadow-lg p-6">
+                <div class="bg-zinc-700 rounded-lg shadow-lg p-6">
                     <div class="flex items-center justify-center mb-4">
                         <i class="fas fa-star text-orange-400 text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-center text-white">Customer Reviews</h3>
                     <p class="text-zinc-400 text-center">Read customer reviews from various vendors to make informed decisions based on others' experiences.</p>
                 </div>
-                <div class="bg-zinc-800 rounded-lg shadow-lg p-6">
+                <div class="bg-zinc-700 rounded-lg shadow-lg p-6">
                     <div class="flex items-center justify-center mb-4">
                         <i class="fas fa-shipping-fast text-orange-400 text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-center text-white">Shipping Options</h3>
                     <p class="text-zinc-400 text-center">Get detailed information on shipping options and costs from different suppliers, helping you choose the fastest or most cost-effective shipping method.</p>
                 </div>
-                <div class="bg-zinc-800 rounded-lg shadow-lg p-6">
+                <div class="bg-zinc-700 rounded-lg shadow-lg p-6">
                     <div class="flex items-center justify-center mb-4">
                         <i class="fas fa-robot text-orange-400 text-4xl"></i>
                     </div>
@@ -146,5 +154,4 @@
             </div>
         </div>
     </section>
-    
 </main>
