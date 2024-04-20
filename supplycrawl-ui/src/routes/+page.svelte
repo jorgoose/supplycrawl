@@ -63,7 +63,7 @@
 <main>
     <section class="bg-gradient-to-r from-zinc-700 to-zinc-900 py-12 sm:py-24">
         <div class="container mx-auto px-4">
-            <div class="max-w-xl mx-auto text-center mb-8 sm:mb-12">
+            <div class="max-w-2xl mx-auto text-center mb-8 sm:mb-12">
                 <h1 class="text-3xl sm:text-4xl font-bold text-white mb-3 sm:mb-4">Easily Compare Industrial Supply Prices</h1>
                 <p class="text-zinc-300 text-base sm:text-lg">Get the best deals from suppliers like W.W. Grainger, McMaster Carr, and others. Compare prices and features effortlessly.</p>
             </div>
@@ -142,14 +142,14 @@
                         <i class="fas fa-shipping-fast text-orange-400 text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-center text-white">Shipping Options</h3>
-                    <p class="text-zinc-400 text-center">Get detailed information on shipping options and costs from different suppliers, helping you choose the fastest or most cost-effective shipping method.</p>
+                    <p class="text-zinc-400 text-center">Get detailed information on shipping options and costs from different suppliers to choose the best delivery method.
                 </div>
                 <div class="bg-zinc-700 rounded-lg shadow-lg p-6">
                     <div class="flex items-center justify-center mb-4">
                         <i class="fas fa-robot text-orange-400 text-4xl"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-center text-white">AI-Powered Recommendations</h3>
-                    <p class="text-zinc-400 text-center">Receive personalized product suggestions optimized for price, customer satisfaction, and shipping options, using our advanced AI algorithms. This tailored approach helps you make the best purchasing decisions quickly and efficiently.</p>
+                    <p class="text-zinc-400 text-center">Receive personalized product suggestions based on your preferred vendors and priorities.</p>
                 </div>
             </div>
         </div>
